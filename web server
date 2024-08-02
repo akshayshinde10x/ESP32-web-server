@@ -17,11 +17,11 @@ String output26State = "off";
 String output27State = "off";
 
 // Assign output variables to GPIO pins
-const int output26 = 26;
+const int output26 = 2;
 const int output27 = 27;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   // Initialize the output variables as outputs
   pinMode(output26, OUTPUT);
   pinMode(output27, OUTPUT);
